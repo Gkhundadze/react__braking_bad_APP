@@ -28,6 +28,9 @@ function App() {
       <div className="up-button"><a className="text-reset text-decoration-none" href="#">Up</a></div>
       <header className="App-header mb-3">
         <img src={logo} className="App-logo" alt="logo" />
+        <div className="align-self-center shadow bg-dark rounded py-1 px-2 border border-danger">
+          <h1>Breaking Bad</h1>
+        </div>
       </header>
       <MainDataService/>
       {/* <Counter inc="1"/> */}
