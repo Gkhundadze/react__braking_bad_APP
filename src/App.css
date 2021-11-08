@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .App {
   text-align: center;
 }
@@ -63,4 +67,11 @@
 .up-button a{
   /* color: #fff;
   text-decoration: none; */
+}
+.bb{
+  transition: .3s ease-out;
+}
+.bb:hover{
+  color: rgb(175, 153, 153);
+  transition: .3s ease-in;
 }
